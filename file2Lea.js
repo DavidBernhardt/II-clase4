@@ -4,3 +4,8 @@ acu++;
 
 acu += acu;
 console.log(acu != 0 ? "No ":"" +  "es 0");
+
+function saludar(nombre){
+    console.log("Hola "+nombre)
+    return;
+}
